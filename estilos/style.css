@@ -1,8 +1,42 @@
 @charset "UTF-8";
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #5f2c82;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    ;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 500px;
+}
+
+section#login > div#imagem {
+    
+    margin-bottom: 20px;
+    background: #5f2c82 url('../imagens/pexels-ali.jpg') no-repeat ;
+    background-size: cover;
+    height: 200px;
 }
