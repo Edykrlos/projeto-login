@@ -25,18 +25,28 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
     background-color: #ffffff;
-    padding: 40px;
+    
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.454) ;
     width: 250px;
     height: 500px;
 }
 
 section#login > div#imagem {
-    
+    display: block;
     margin-bottom: 20px;
     background: #5f2c82 url('../imagens/pexels-ali.jpg') no-repeat ;
     background-size: cover;
+    
     height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 10px;
 }
